@@ -104,7 +104,7 @@ window.addEventListener('scroll', checkLinksVisibility);
 
  // Countdown
  function updateCountdown() {
-    const targetDate = new Date('January 4, 2026 00:00:00').getTime(); // Target date in milliseconds
+    const targetDate = new Date('January 10, 2026 00:00:00').getTime(); // Target date in milliseconds
     const now = new Date().getTime(); // Current time in milliseconds
     const timeDifference = targetDate - now; // Difference in milliseconds
 
