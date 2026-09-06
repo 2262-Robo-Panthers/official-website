@@ -65,12 +65,11 @@ export default function Countdown() {
   return (
     <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-none min-h-[50vh] flex items-center justify-center overflow-hidden py-12">
       <div 
-        className="absolute inset-0 w-full h-full bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('/countdown/background.jpg')" }}
+        className="absolute inset-0 w-full h-full z-0"
       />
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12">
-        <div className="relative w-full rounded-2xl bg-white/[0.04] backdrop-blur-md shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] p-6 sm:p-10 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12 ">
+        <div className="relative w-full rounded-2xl bg-[#043a49] border border-white/20 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] p-6 sm:p-10 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden">
           
           <div className="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/10 via-transparent to-black/30 pointer-events-none" />
 
@@ -89,7 +88,7 @@ export default function Countdown() {
 
           <div className="relative z-10 flex-1 flex flex-col items-center text-center w-full">
             <h3 className="text-lg sm:text-xl md:text-2xl font-normal text-slate-200 tracking-wide font-['Raleway']">
-              FIRST® Robotics Competition <span className="text-[var(--red)] font-semibold drop-shadow-[0_0_0.5vw_rgba(179,36,36,0.5)]">2027 Game</span>
+              <i>FIRST</i>® Robotics Competition <span className="text-[var(--red)] font-semibold drop-shadow-[0_0_0.5vw_rgba(179,36,36,0.5)]">2027 Game</span>
             </h3>
             <p className="text-base sm:text-lg text-slate-300 mt-1 mb-6 font-['Raleway']">
               Kickoff Countdown

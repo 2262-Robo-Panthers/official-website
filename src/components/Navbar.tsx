@@ -26,7 +26,7 @@ export default function Navbar() {
               href="/about-frc" 
               className="text-sm sm:text-base font-medium text-[var(--light-gray)] hover:text-[var(--red)] transition-colors duration-200"
             >
-              About FRC
+              About FRC®
             </Link>
             <Link 
               href="/sponsors" 

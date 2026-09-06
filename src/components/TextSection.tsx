@@ -7,29 +7,15 @@ interface TextProps {
   children?: ReactNode;
 }
 
-const parseFormattedText = (content: ReactNode) => {
-  if (typeof content !== 'string' || !content.includes('[[[')) {
-    return content;
-  }
-
-  // Split string by [[[...]]] brackets
-  const parts = content.split(/\[\[\[(.*?)\]\]\]/g);
-
-  return parts.map((part, index) => {
-    // Odd indices match the text inside [[[ and ]]]
-    if (index % 2 === 1) {
-      return (
-        <em key={index} className="text-[var(--red)] font-bold not-italic drop-shadow-[0_0_0.5vw_rgba(179,36,36,0.5)]">
-          {part}
-        </em>
-      );
-    }
-    return part;
-  });
-};
+export function Red({children}:{children?:ReactNode}){
+  return (
+    <em className="text-[var(--red)] font-bold not-italic drop-shadow-[0_0_0.5vw_rgba(179,36,36,0.5)]">
+      {children}
+    </em>
+  )
+}
 
 // by default it pads down not up
-
 export default function TextSection({ title, padup=false, paddown=true, children }: TextProps) {
   const arrowbase = "w-16 sm:w-20 md:w-24 min-w-[60px] flex items-center";
   const headerbase = "text-3xl \
@@ -61,7 +47,7 @@ export default function TextSection({ title, padup=false, paddown=true, children
 
       {children && (
         <p className={textstyle}>
-          {parseFormattedText(children)}
+          {children}
         </p>
       )}
     </>

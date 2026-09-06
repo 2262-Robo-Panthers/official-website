@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Countdown from '@/components/Countdown';
 import SlideIn from '@/components/SlideIn';
-import TextSection from '@/components/TextSection'
+import TextSection, {Red} from '@/components/TextSection'
 
 export default function Home() {
   return (
@@ -41,10 +41,10 @@ export default function Home() {
       <section className="w-full min-h-screen pt-16 pb-0 px-4 sm:px-8 md:px-12 max-w-7xl mx-auto flex flex-col gap-16">
         <div className="w-full">
           <SlideIn direction="up" className="flex flex-col gap-8 w-full">
-            <TextSection title='Who We Are' paddown={false}>The [[[Holliston RoboPanthers 2262]]] is a student-run, student-funded robotics team that is organized by 
-              students with the supervision of an adult mentor and advisor in [[[Holliston, MA]]]. We are about twenty-five members strong, and we 
-              participate in the [[[FIRST® Robotics Competition, FRC]]] as well as interact with our community by going to school events and by hosting 
-              free services such as car washes. Our goal is to get members of our community to develop a passion for [[[STEM]]].</TextSection>
+            <TextSection title='Who We Are' paddown={false}>The <Red>Holliston RoboPanthers 2262</Red> is a student-run, student-funded robotics team that is organized by 
+              students with the supervision of an adult mentor and advisor in <Red>Holliston, MA</Red>. We are about twenty-five members strong, and we 
+              participate in the <Red><i>FIRST</i>® Robotics Competition, FRC</Red> as well as interact with our community by going to school events and by hosting 
+              free services such as car washes. Our goal is to get members of our community to develop a passion for <Red>STEM</Red>.</TextSection>
           </SlideIn>
         </div>
 
