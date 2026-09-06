@@ -28,10 +28,10 @@ export default function Home() {
           </SlideIn>
           <SlideIn direction="up" delay={0.1} className="w-full">
             <Link
-              href="https://www.firstinspires.org/"
+              href="https://www.firstinspires.org/programs/frc/"
               target="_blank"
               rel="noopener noreferrer"
-              title="About FRC"
+              title="FRC website"
               className="group relative flex h-16 sm:h-20 md:h-24 w-full items-center justify-start rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.5)]"
             >
               <div 
@@ -40,7 +40,7 @@ export default function Home() {
               />
               <div className="relative z-10 h-full flex items-center bg-black/50 backdrop-blur-md px-6 sm:px-10">
                 <p className="font-['Raleway'] text-lg sm:text-xl md:text-2xl font-medium text-[var(--light-gray)] group-hover:text-[var(--red)] transition-colors duration-300 flex items-center gap-2">
-                  <span className="text-xs sm:text-sm md:text-base">▶</span> <i>FIRST</i> website
+                  <span className="text-xs sm:text-sm md:text-base">▶</span> FRC website
                 </p>
               </div>
             </Link>
