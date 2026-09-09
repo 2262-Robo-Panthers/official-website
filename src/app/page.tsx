@@ -42,7 +42,7 @@ export default function Home() {
         <div className="w-full">
           <SlideIn direction="up" className="flex flex-col gap-8 w-full">
             <TextSection title='Who We Are' paddown={false}>The <Red>Holliston RoboPanthers 2262</Red> is a student-run, student-funded robotics team that is organized by 
-              students with the supervision of an adult mentor and advisor in <Red>Holliston, MA</Red>. We are about twenty-five members strong, and we 
+              students with the supervision of an adult mentor and advisor in <Red>Holliston, MA</Red>. We  
               participate in the <Red><i>FIRST</i>® Robotics Competition, FRC</Red> as well as interact with our community by going to school events and by hosting 
               free services such as car washes. Our goal is to get members of our community to develop a passion for <Red>STEM</Red>.</TextSection>
           </SlideIn>

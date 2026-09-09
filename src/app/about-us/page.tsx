@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-full">
           <SlideIn direction="up" className="flex flex-col gap-8 w-full">
             <TextSection title='Who We Are'>The <Red>Holliston RoboPanthers 2262</Red> is a student-run, student-funded robotics team that is organized by 
-              students with the supervision of an adult mentor and advisor in <Red>Holliston, MA</Red>. We are about twenty-five members strong, and we 
+              students with the supervision of an adult mentor and advisor in <Red>Holliston, MA</Red>. We  
               participate in the <Red><i>FIRST</i>® Robotics Competition, FRC</Red> as well as interact with our community by going to school events and by hosting
                free services such as car washes. Our goal is to get members of our community to develop a passion for <Red>STEM</Red>.</TextSection>
           </SlideIn>
@@ -22,8 +22,8 @@ export default function Home() {
             <TextSection title='Our Mission'>
                 
             We believe in the importance of inspiring our students and teaching them essential skills that they can use throughout their lives. 
-            We promote exceptional qualities and mannerisms, such as the ability to have a <Red>competitive spirit</Red> while demonstrating
-             <Red>good sportsmanship</Red> and the importance of <Red>equality and acceptance</Red>, especially in scientific fields of work. 
+            We promote exceptional qualities and mannerisms, such as the ability to have a <Red>competitive spirit</Red> while demonstrating <Red>
+            good sportsmanship</Red> and the importance of <Red>equity and acceptance</Red>, especially in scientific fields of work. 
                In addition, we teach our members about <Red>design, engineering, fabrication, and programming</Red> as well as life skills such as 
              <Red>leadership, teamwork, and time management</Red> through this long-term project.
             </TextSection>
